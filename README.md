@@ -13,7 +13,7 @@ Because neuroimaging processing is highly resource-intensive, this pipeline was 
 
 ---
 
-## 💻 Environment & OS Virtualization
+## Environment & OS Virtualization
 To ensure reproducibility, this pipeline was built and executed in a virtualised environment.
 *   **Host OS Compatibility**: Windows / macOS / Linux
 *   **Virtual Machine Manager**: Ubuntu running inside a Virtual Machine Manager (Oracle VirtualBox Manager )

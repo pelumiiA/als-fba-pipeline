@@ -9,7 +9,7 @@ This repository contains the cross-sectional and longitudinal Fixel-Based Analys
 Because neuroimaging processing is highly resource-intensive, this pipeline was executed as a **proof of concept** with strategic adjustments made for local hardware limitations:
 *   **Cohort Size**: A subset of **5 subjects** (comprising one ALS patient and controls) was processed locally from raw data through to metric estimation to validate the pipeline mechanics.
 *   **Template & Group Stats**: To ensure scientific validity regardless of my machines limitations, the population-specific FOD template, structural connectivity matrices, and final statistical outputs were integrated from the broader dataset (provided by my supervisor).
-*   **Statistical Permutations**: Local testing was run with a reduced number of permutations (e.g., `500` instead of the standard `5000`) to verify script execution without exhausting system memory. Final statistical inference (**fixelcfestats**) was run with the standard permutations.
+*   **Statistical Permutations**: Local testing was run with a reduced number of permutations ( `5` instead of the standard `5000`) to verify script execution without exhausting system memory. Final statistical inference (**fixelcfestats**) was run with the standard number of permutations.
 
 ---
 
